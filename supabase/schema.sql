@@ -30,7 +30,7 @@ stable
 security invoker
 set search_path = ''
 as $$
-  select (select auth.uid()) = '00000000-0000-0000-0000-000000000000'::uuid;
+  select (select auth.uid()) = '8385049a-70a1-44db-8f34-3c1353b58a82'::uuid;
 $$;
 
 -- Restrict client roles to the exact operations the app needs.
